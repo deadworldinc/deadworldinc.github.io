@@ -58,6 +58,10 @@
  line-height: 1.5;
 }
 
+.list{
+    color:rgb(185, 185, 185);
+}
+
 .description button{
  border:1px  solid #ffffff;
  background:#ffffff;
@@ -70,7 +74,7 @@ background-color: white;
 color:black;
 }
 
-/* about start */
+/* about */
 
 .about{
     position: absolute;
@@ -114,6 +118,20 @@ color: #ffffff;
 .about .desc p{
 line-height:2;
 color:rgb(202, 202, 202);
+}
+
+.about .desc .links{
+    width: 15px;
+    height: 15px;
+    border-radius: 0%;
+    filter: opacity(90%)
+}
+
+.about .desc .hyper{
+    margin-left: 1%; 
+    font-size: 13px; 
+    text-decoration: underline; 
+    cursor: pointer;
 }
 
 /* members start */
@@ -250,5 +268,6 @@ color:rgb(202, 202, 202);
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    box-shadow:rgba(255, 255, 255, 0.5);
 }
    
